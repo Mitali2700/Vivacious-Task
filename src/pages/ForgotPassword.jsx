@@ -148,8 +148,8 @@ export default function ForgotPassword() {
                         backgroundColor: "#0C359E",
                         "&:hover": {
                           minWidth: "100px",
-                          color: "#711DB0",
-                          backgroundColor: "#F1EAFF",
+                          color: "#0C359E",
+                          bgcolor: "#D2E0FB",
                           fontWeight: "bold",
                         },
                       }}
@@ -164,7 +164,7 @@ export default function ForgotPassword() {
                         variant="body1"
                         component="span"
                         onClick={() => {
-                          navigate("/reset-password");
+                          navigate("/");
                         }}
                         style={{
                           cursor: "pointer",
